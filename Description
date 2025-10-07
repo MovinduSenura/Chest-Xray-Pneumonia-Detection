@@ -1,0 +1,1 @@
+A deep learning project for pneumonia detection using chest X-ray images. Includes four supervised models (Custom CNN, VGG16, ResNet50, EfficientNetB0) developed by four team members for performance comparison.
