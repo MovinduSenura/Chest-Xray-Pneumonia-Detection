@@ -1,0 +1,50 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and config files
+.env
+*.env
+*.json
+
+# Ignore model weights and large binary files
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pth
+*.pt
+
+# Ignore Colab and runtime-specific files
+*.zip
+*.tar
+*.gz
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# Ignore logs and outputs
+*.log
+logs/
+outputs/
+runs/
+
+# Ignore dataset folders (optional, if data stored externally like Drive)
+data/
+dataset/
+*.csv
+*.txt
+
+# Ignore temporary folders
+tmp/
+temp/
