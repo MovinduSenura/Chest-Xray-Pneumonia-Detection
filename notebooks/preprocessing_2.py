@@ -13,7 +13,7 @@ import os
 
 def create_generators(DATA_DIR):
     train_dir = os.path.join(DATA_DIR, 'train')
-    val_dir   = os.path.join(DATA_DIR, 'val')
+    val_dir   = os.path.join(DATA_DIR, 'val_fixed')
     test_dir  = os.path.join(DATA_DIR, 'test')
 
     train_datagen = ImageDataGenerator(
